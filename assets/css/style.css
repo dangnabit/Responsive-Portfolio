@@ -315,6 +315,21 @@ h4:hover {
   #headerspace {
     width: 730px;
   }
+  .port.portl {
+    float: none;
+  }
+  .port.portr {
+    float: none;
+  }
+  .portimg {
+    width: 368px;
+    height: 275px;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .firstimg {
+    margin-top: 0px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -334,6 +349,20 @@ h4:hover {
   #connect {
     width: 730px;
     margin-top: 20px;
+  }
+  div.port {
+    width: 300px;
+  }
+  .port.portl {
+    float: left;
+  }
+  .port.portr {
+    float: right;
+  }
+  .portimg {
+    width: 300px;
+    height: 225px;
+    margin: auto;
   }
 }
 
@@ -387,5 +416,20 @@ h4:hover {
   #footer {
     width: 600px;
     box-sizing: border-box;
+  }
+  .port.portl {
+    float: none;
+  }
+  .port.portr {
+    float: none;
+  }
+  .portimg {
+    width: 548px;
+    height: 400px;
+    margin-top: 20px;
+  }
+
+  div.port {
+    margin-bottom: 20px;
   }
 }
