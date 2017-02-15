@@ -173,7 +173,7 @@ section {
   background: #666666;
   position: fixed;
   bottom: 0;
-  left: 0;
+  /*left: 0;*/
   text-align: center;
   color: #777777;
   width: 100%;
@@ -294,4 +294,96 @@ h4:hover {
 
 .port.portr {
   float: right;
+}
+
+@media screen and (max-width: 980px) {
+  .content {
+    width: 730px;
+    /*margin: 0px;*/
+  }
+  #headshot {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  section {
+    width: 420px;
+    margin-right: 20px;
+    /*margin-left: 20px;*/
+    margin-bottom: 20px;
+  }
+  #headerspace {
+    width: 730px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 730px;
+    margin: auto;
+    padding: 0px;
+  }
+  section {
+    width: 730px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #headerspace {
+    width: 730px;
+  }
+  #connect {
+    width: 730px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  header {
+    height: 150px;
+    width: 100%;
+  }
+  #title {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .wrapper {
+    width: 600px;
+    margin: auto
+  }
+  .content {
+    width: 600px;
+  }
+  section {
+    width: 600px;
+  }
+  #connect {
+    width: 600px;
+    float: none;
+    clear: both;
+  }
+  #headerspace {
+    background: #ffffff;
+    height: 150px;
+    padding-bottom: 30px;
+    width: 100%;
+  }
+  nav {
+    text-align: center;
+    margin: auto;
+    clear: both;
+    float: none;
+    position: relative;
+    bottom: 10px;
+    padding-left: 0px;
+  }
+  ul {
+    margin: 0px;
+  }
+  #footer {
+    width: 600px;
+    box-sizing: border-box;
+  }
 }
